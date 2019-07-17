@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="56012" started-at="2019-07-15T12:42:43Z" finished-at="2019-07-15T12:43:39Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="56012" started-at="2019-07-15T12:42:43Z" finished-at="2019-07-15T12:43:39Z">
+      <class name="com.training.sanity.tests.RETC_062Test">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.RETC_062Test@5e3a8624]" name="setUpBeforeClass" is-config="true" duration-ms="210" started-at="2019-07-15T12:42:43Z" finished-at="2019-07-15T12:42:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpBeforeClass -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.RETC_062Test@5e3a8624]" name="setUp" is-config="true" duration-ms="43998" started-at="2019-07-15T12:42:43Z" finished-at="2019-07-15T12:43:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validRegisterTest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.training.sanity.tests.RETC_062Test@5e3a8624]" name="validRegisterTest" duration-ms="9430" started-at="2019-07-15T12:43:27Z" data-provider="db-inputs" finished-at="2019-07-15T12:43:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rahul@mail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[pant]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validRegisterTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.RETC_062Test@5e3a8624]" name="tearDown" is-config="true" duration-ms="2038" started-at="2019-07-15T12:43:37Z" finished-at="2019-07-15T12:43:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.RETC_062Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

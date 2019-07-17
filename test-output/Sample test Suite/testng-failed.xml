@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Sample test Suite]">
+  <parameter name="appURL" value="https://google.com"/>
+  <parameter name="browserType" value="chrome"/>
+  <test thread-count="5" name="Sample test(failed)">
+    <classes>
+      <class name="com.training.sanity.tests.ChangePwdTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="changePhoneNum"/>
+          <include name="setUpBeforeClass"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.ChangePwdTest -->
+      <class name="com.training.sanity.tests.ResetPwdTest">
+        <methods>
+          <include name="setUpBeforeClass"/>
+          <include name="passwordRecTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.training.sanity.tests.ResetPwdTest -->
+    </classes>
+  </test> <!-- Sample test(failed) -->
+</suite> <!-- Failed suite [Sample test Suite] -->
